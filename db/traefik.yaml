@@ -1,0 +1,6 @@
+name: Traefik
+tags:
+    - Load Balancer
+    - Reverse Proxy
+links:
+    home: https://traefik.io/

@@ -1,0 +1,5 @@
+name: Apache Cassandra
+tags:
+    - Database
+links:
+    home: http://cassandra.apache.org/

@@ -1,0 +1,5 @@
+name: Travis CI
+tags:
+    - Continuous Integration
+links:
+    home: https://travis-ci.org/

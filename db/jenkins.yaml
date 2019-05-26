@@ -1,0 +1,5 @@
+name: Jenkins
+tags:
+    - Continuous Integration
+links:
+    home: https://jenkins.io/

@@ -1,0 +1,5 @@
+name: InfluxDB
+tags:
+    - Database
+links:
+    home: https://www.influxdata.com/products/influxdb-overview/

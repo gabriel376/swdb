@@ -1,0 +1,5 @@
+name: Hudson
+tags:
+    - Continuous Integration
+links:
+    home: https://www.eclipse.org/hudson/

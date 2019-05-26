@@ -1,0 +1,5 @@
+name: FindBugs
+tags:
+    - Static Code Analysis
+links:
+    home: http://findbugs.sourceforge.net/

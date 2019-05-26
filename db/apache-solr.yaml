@@ -1,0 +1,6 @@
+name: Apache Solr
+tags:
+    - Database
+    - Search Engine
+links:
+    home: https://lucene.apache.org/solr/

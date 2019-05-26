@@ -1,0 +1,5 @@
+name: lighttpd
+tags:
+    - Web Server
+links:
+    home: https://www.lighttpd.net/

@@ -1,0 +1,7 @@
+name: Nginx
+tags:
+    - Load Balancer
+    - Reverse Proxy
+    - Web Server
+links:
+    home: http://nginx.org/

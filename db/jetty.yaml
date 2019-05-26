@@ -1,0 +1,5 @@
+name: Jetty
+tags:
+    - Web Server
+links:
+    home: https://www.eclipse.org/jetty/

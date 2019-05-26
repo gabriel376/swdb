@@ -1,0 +1,5 @@
+name: rsync
+tags:
+    - File Synchronization
+links:
+    home: https://rsync.samba.org/

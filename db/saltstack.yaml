@@ -1,0 +1,5 @@
+name: SaltStack
+tags:
+    - Configuration Management
+links:
+    home: https://www.saltstack.com/

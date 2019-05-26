@@ -1,0 +1,5 @@
+name: RabbitMQ
+tags:
+    - Message Broker
+links:
+    home: https://www.rabbitmq.com/
