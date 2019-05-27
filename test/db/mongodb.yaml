@@ -1,5 +1,7 @@
 name: MongoDB
+source: open
 tags:
     - Database
 links:
     home: https://www.mongodb.com
+    repository: https://github.com/mongodb/mongo

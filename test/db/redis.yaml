@@ -1,5 +1,7 @@
 name: Redis
+source: open
 tags:
     - Database
 links:
     home: https://redis.io/
+    repository: https://github.com/antirez/redis

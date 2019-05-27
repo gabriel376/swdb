@@ -1,6 +1,8 @@
 name: Vim
+source: open
 tags:
     - Diff Viewer
     - Text Editor
 links:
     home: https://www.vim.org/
+    repository: https://github.com/vim/vim

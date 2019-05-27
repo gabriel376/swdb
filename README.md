@@ -20,9 +20,10 @@ swdb -v                # print version
 
 swdb tags              # get tags and sw count
 
-swdb info         \    # get sw info
-    --name=[name] \    # filter by name
-    --tag=[tag]        # filter by tag
+swdb info                  \    # get sw info
+    --name=[name]          \    # filter by name
+    --tag=[tag]            \    # filter by tag
+    --source=[open,closed]      # filter by source
 ```
 
 ## License

@@ -28,11 +28,14 @@ class swdb:
         parser = argparse.ArgumentParser()
         parser.add_argument('--name', default='', help='filter by name')
         parser.add_argument('--tag', default='', help='filter by tag')
+        parser.add_argument('--source', choices=['open', 'closed'], help='filter by source')
         args = parser.parse_args(argv)
 
-        def match(item):
-            return (args.name.lower() in item['name'].lower()
-                and args.tag.lower() in ''.join(item['tags']).lower())
+        match = lambda item: (
+            args.name.lower() in item['name'].lower()
+            and args.tag.lower() in ''.join(item['tags']).lower()
+            and (not args.source or ('source' in item and args.source.lower() in item['source'].lower()))
+        )
 
         data = self.db.load()
         filtered = [item for item in data if match(item)]
