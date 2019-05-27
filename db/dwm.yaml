@@ -1,5 +1,7 @@
 name: dwm
+source: open
 tags:
     - Window Manager
 links:
     home: https://dwm.suckless.org/
+    repository: https://git.suckless.org/dwm/

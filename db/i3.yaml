@@ -1,5 +1,7 @@
 name: i3
+source: open
 tags:
     - Window Manager
 links:
     home: https://i3wm.org/
+    repository: https://github.com/i3/i3

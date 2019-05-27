@@ -1,5 +1,7 @@
 name: FindBugs
+source: open
 tags:
     - Static Code Analysis
 links:
     home: http://findbugs.sourceforge.net/
+    repository: https://github.com/findbugsproject/findbugs

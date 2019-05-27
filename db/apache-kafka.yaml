@@ -1,5 +1,7 @@
 name: Apache Kafka
+source: open
 tags:
     - Message Broker
 links:
     home: http://kafka.apache.org/
+    repository: https://github.com/apache/kafka

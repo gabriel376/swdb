@@ -1,5 +1,7 @@
 name: GNATS
+source: open
 tags:
     - Bug Tracking
 links:
     home: https://www.gnu.org/software/gnats/
+    repository: http://cvs.savannah.gnu.org/viewvc/gnats/

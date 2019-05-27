@@ -1,5 +1,7 @@
 name: TextMate
+source: open
 tags:
     - Text Editor
 links:
     home: https://macromates.com/
+    repository: https://github.com/textmate/textmate

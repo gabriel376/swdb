@@ -1,5 +1,7 @@
 name: Mutt
+source: open
 tags:
     - Email Client
 links:
     home: http://www.mutt.org/
+    repository: https://gitlab.com/muttmua/mutt

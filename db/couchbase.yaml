@@ -1,5 +1,7 @@
 name: Couchbase
+source: open
 tags:
     - Database
 links:
     home: https://www.couchbase.com/
+    repository: https://github.com/apache/couchdb

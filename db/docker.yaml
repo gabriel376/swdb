@@ -1,6 +1,8 @@
 name: Docker
+source: open
 tags:
     - Container Engine
     - Container Orchestration
 links:
     home: https://www.docker.com/
+    repository: https://github.com/docker/docker-ce

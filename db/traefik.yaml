@@ -1,6 +1,8 @@
 name: Traefik
+source: open
 tags:
     - Load Balancer
     - Reverse Proxy
 links:
     home: https://traefik.io/
+    repository: https://github.com/containous/traefik

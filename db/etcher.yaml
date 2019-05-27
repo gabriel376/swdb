@@ -1,5 +1,7 @@
 name: Etcher
+source: open
 tags:
     - Live USB Creator
 links:
     home: https://www.balena.io/etcher/
+    repository: https://github.com/balena-io/etcher

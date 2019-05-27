@@ -1,5 +1,7 @@
 name: Fluxbox
+source: open
 tags:
     - Window Manager
 links:
     home: http://fluxbox.org/
+    repository: https://github.com/fluxbox/fluxbox

@@ -1,5 +1,7 @@
 name: Notepad++
+source: open
 tags:
     - Text Editor
 links:
     home: https://notepad-plus-plus.org/
+    repository: https://github.com/notepad-plus-plus/notepad-plus-plus

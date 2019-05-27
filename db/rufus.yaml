@@ -1,5 +1,7 @@
 name: Rufus
+source: open
 tags:
     - Live USB Creator
 links:
     home: https://rufus.ie/
+    repository: https://github.com/pbatard/rufus

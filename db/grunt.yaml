@@ -1,5 +1,7 @@
 name: Grunt
+source: open
 tags:
     - Build Automation
 links:
     home: https://gruntjs.com/
+    repository: https://github.com/gruntjs/grunt

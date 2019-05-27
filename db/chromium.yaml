@@ -1,5 +1,7 @@
 name: Chromium
+source: open
 tags:
     - Browser
 links:
     home: https://www.chromium.org/
+    repository: https://chromium.googlesource.com/chromium/src/

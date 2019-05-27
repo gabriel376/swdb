@@ -1,5 +1,7 @@
 name: Mercurial
+source: open
 tags:
     - Version Control
 links:
     home: https://www.mercurial-scm.org/
+    repository: https://www.mercurial-scm.org/repo/hg-stable/

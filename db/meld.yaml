@@ -1,5 +1,7 @@
 name: Meld
+source: open
 tags:
     - Diff Viewer
 links:
     home: http://meldmerge.org/
+    repository: https://gitlab.gnome.org/GNOME/meld

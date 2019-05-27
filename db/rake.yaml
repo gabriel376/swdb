@@ -1,5 +1,7 @@
 name: Rake
+source: open
 tags:
     - Build Automation
 links:
     home: https://ruby.github.io/rake/
+    repository: https://github.com/ruby/rake

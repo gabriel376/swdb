@@ -1,5 +1,7 @@
 name: WeeChat
+source: open
 tags:
     - IRC Client
 links:
     home: https://weechat.org/
+    repository: https://github.com/weechat/weechat

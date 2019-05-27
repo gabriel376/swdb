@@ -1,5 +1,7 @@
 name: OpenOffice
+source: open
 tags:
     - Office Suite
 links:
     home: https://www.openoffice.org/
+    repository: https://svn.apache.org/viewvc/openoffice/

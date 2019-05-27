@@ -1,5 +1,7 @@
 name: CrateDB
+source: open
 tags:
     - Database
 links:
     home: https://crate.io/
+    repository: https://github.com/crate/crate

@@ -1,5 +1,7 @@
 name: UNetbootin
+source: open
 tags:
     - Live USB Creator
 links:
     home: https://unetbootin.github.io/
+    repository: https://github.com/unetbootin/unetbootin

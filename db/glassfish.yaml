@@ -1,5 +1,7 @@
 name: GlassFish
+source: open
 tags:
     - Web Server
 links:
     home: https://javaee.github.io/glassfish/
+    repository: https://github.com/eclipse-ee4j/glassfish

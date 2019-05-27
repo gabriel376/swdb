@@ -1,5 +1,7 @@
 name: Ettercap
+source: open
 tags:
     - Packet Analyzer
 links:
     home: http://www.ettercap-project.org/
+    repository: https://github.com/Ettercap/ettercap

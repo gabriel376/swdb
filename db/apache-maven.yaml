@@ -1,5 +1,7 @@
 name: Apache Maven
+source: open
 tags:
     - Build Automation
 links:
     home: https://maven.apache.org/
+    repository: https://github.com/apache/maven

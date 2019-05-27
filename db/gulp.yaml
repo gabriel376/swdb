@@ -1,5 +1,7 @@
 name: Gulp
+source: open
 tags:
     - Build Automation
 links:
     home: https://gulpjs.com/
+    repository: https://github.com/gulpjs/gulp

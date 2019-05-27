@@ -1,5 +1,7 @@
 name: Travis CI
+source: open
 tags:
     - Continuous Integration
 links:
     home: https://travis-ci.org/
+    repository: https://github.com/travis-ci/travis-ci

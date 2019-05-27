@@ -1,5 +1,7 @@
 name: GNOME
+source: open
 tags:
     - Desktop Environment
 links:
     home: https://www.gnome.org/
+    repository: https://gitlab.gnome.org/GNOME/gnome-shell

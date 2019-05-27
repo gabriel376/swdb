@@ -1,5 +1,7 @@
 name: Chef
+source: open
 tags:
     - Configuration Management
 links:
     home: https://www.chef.io/
+    repository: https://github.com/chef/chef

@@ -1,5 +1,7 @@
 name: Jenkins
+source: open
 tags:
     - Continuous Integration
 links:
     home: https://jenkins.io/
+    repository: https://github.com/jenkinsci/jenkins

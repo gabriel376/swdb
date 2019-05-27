@@ -1,5 +1,7 @@
 name: Memcached
+source: open
 tags:
     - Database
 links:
     home: https://memcached.org/
+    repository: https://github.com/memcached/memcached

@@ -1,5 +1,7 @@
 name: GitLab
+source: open
 tags:
     - Continuous Integration
 links:
     home: https://gitlab.com/
+    repository: https://gitlab.com/gitlab-org/gitlab-ce

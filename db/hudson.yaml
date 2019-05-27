@@ -1,5 +1,7 @@
 name: Hudson
+source: open
 tags:
     - Continuous Integration
 links:
     home: https://www.eclipse.org/hudson/
+    repository: https://git.eclipse.org/c/hudson/org.eclipse.hudson.core.git

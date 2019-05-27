@@ -1,5 +1,7 @@
 name: Irssi
+source: open
 tags:
     - IRC Client
 links:
     home: https://irssi.org/
+    repository: https://github.com/irssi/irssi

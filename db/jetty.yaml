@@ -1,5 +1,7 @@
 name: Jetty
+source: open
 tags:
     - Web Server
 links:
     home: https://www.eclipse.org/jetty/
+    repository: https://github.com/eclipse/jetty.project

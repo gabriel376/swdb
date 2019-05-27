@@ -1,5 +1,7 @@
 name: Kompare
+source: open
 tags:
     - Diff Viewer
 links:
     home: http://www.caffeinated.me.uk/kompare/
+    repository: https://cgit.kde.org/kompare.git/

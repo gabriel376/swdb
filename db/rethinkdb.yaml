@@ -1,5 +1,7 @@
 name: RethinkDB
+source: open
 tags:
     - Database
 links:
     home: https://www.rethinkdb.com/
+    repository: https://github.com/rethinkdb/rethinkdb

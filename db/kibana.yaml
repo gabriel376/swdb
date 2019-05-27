@@ -1,5 +1,7 @@
 name: Kibana
+source: open
 tags:
     - Data Visualization
 links:
     home: https://www.elastic.co/products/kibana
+    repository: https://github.com/elastic/kibana

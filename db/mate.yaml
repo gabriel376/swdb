@@ -1,5 +1,7 @@
 name: MATE
+source: open
 tags:
     - Desktop Environment
 links:
     home: https://mate-desktop.org/
+    repository: https://git.mate-desktop.org/mate-desktop/

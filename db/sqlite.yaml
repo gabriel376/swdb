@@ -1,5 +1,7 @@
 name: SQLite
+source: open
 tags:
     - Database
 links:
     home: https://www.sqlite.org/about.html
+    repository: https://www.sqlite.org/src/

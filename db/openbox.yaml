@@ -1,5 +1,7 @@
 name: Openbox
+source: open
 tags:
     - Window Manager
 links:
     home: http://openbox.org/wiki/Main_Page
+    repository: https://github.com/danakj/openbox

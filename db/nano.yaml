@@ -1,5 +1,7 @@
 name: nano
+source: open
 tags:
     - Text Editor
 links:
     home: https://www.nano-editor.org/
+    repository: http://git.savannah.gnu.org/cgit/nano.git

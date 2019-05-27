@@ -1,6 +1,8 @@
 name: Trac
+source: open
 tags:
     - Bug Tracking
     - Project Management
 links:
     home: https://trac.edgewall.org/
+    repository: https://trac.edgewall.org/browser

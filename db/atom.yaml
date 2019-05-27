@@ -1,5 +1,7 @@
 name: Atom
+source: open
 tags:
     - Text Editor
 links:
     home: https://atom.io/
+    repository: https://github.com/atom/atom

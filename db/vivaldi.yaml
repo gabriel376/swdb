@@ -1,5 +1,7 @@
 name: Vivaldi
+source: open
 tags:
     - Browser
 links:
     home: https://vivaldi.com/
+    repository: https://vivaldi.com/source/

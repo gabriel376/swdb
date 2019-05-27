@@ -1,5 +1,7 @@
 name: Mozilla Firefox
+source: open
 tags:
     - Browser
 links:
     home: https://www.mozilla.org/en-US/firefox/
+    repository: https://hg.mozilla.org/mozilla-central/

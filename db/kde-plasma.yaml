@@ -1,5 +1,7 @@
 name: KDE Plasma
+source: open
 tags:
     - Desktop Environment
 links:
     home: https://kde.org/plasma-desktop
+    repository: https://cgit.kde.org/plasma-desktop.git/

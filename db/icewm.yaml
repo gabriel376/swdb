@@ -1,5 +1,7 @@
 name: IceWM
+source: open
 tags:
     - Window Manager
 links:
     home: https://ice-wm.org/
+    repository: https://github.com/bbidulock/icewm

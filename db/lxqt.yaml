@@ -1,5 +1,7 @@
 name: LXQt
+source: open
 tags:
     - Desktop Environment
 links:
     home: https://lxqt.org/
+    repository: https://github.com/lxqt/lxqt

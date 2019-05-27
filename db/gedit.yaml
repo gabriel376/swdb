@@ -1,5 +1,7 @@
 name: gedit
+source: open
 tags:
     - Text Editor
 links:
     home: https://wiki.gnome.org/Apps/Gedit
+    repository: https://gitlab.gnome.org/GNOME/gedit

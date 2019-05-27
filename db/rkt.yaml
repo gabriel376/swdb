@@ -1,5 +1,7 @@
 name: rkt
+source: open
 tags:
     - Container Engine
 links:
     home: https://coreos.com/rkt/
+    repository: https://github.com/rkt/rkt

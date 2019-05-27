@@ -1,5 +1,7 @@
 name: Bugzilla
+source: open
 tags:
     - Bug Tracking
 links:
     home: https://www.bugzilla.org/
+    repository: https://github.com/bugzilla/bugzilla

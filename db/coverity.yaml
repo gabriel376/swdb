@@ -1,4 +1,5 @@
 name: Coverity
+source: closed
 tags:
     - Static Code Analysis
 links:

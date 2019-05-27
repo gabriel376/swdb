@@ -1,5 +1,7 @@
 name: ArangoDB
+source: open
 tags:
     - Database
 links:
     home: https://www.arangodb.com/
+    repository: https://github.com/arangodb/arangodb

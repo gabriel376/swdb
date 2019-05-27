@@ -1,5 +1,7 @@
 name: Mozilla Thunderbird
+source: open
 tags:
     - Email Client
 links:
     home: https://www.thunderbird.net/en-US/
+    repository: https://hg.mozilla.org/comm-central

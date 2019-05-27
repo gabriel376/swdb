@@ -1,5 +1,7 @@
 name: Kate
+source: open
 tags:
     - Text Editor
 links:
     home: https://kate-editor.org/
+    repository: https://github.com/KDE/kate

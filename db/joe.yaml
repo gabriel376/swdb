@@ -1,5 +1,7 @@
 name: JOE
+source: open
 tags:
     - Text Editor
 links:
     home: https://joe-editor.sourceforge.io/
+    repository: https://sourceforge.net/p/joe-editor/mercurial/ci/default/tree/

@@ -1,4 +1,5 @@
 name: Bamboo
+source: closed
 tags:
     - Continuous Integration
 links:

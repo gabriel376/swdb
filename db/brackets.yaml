@@ -1,5 +1,7 @@
 name: Brackets
+source: open
 tags:
     - Text Editor
 links:
     home: http://brackets.io/
+    repository: https://github.com/adobe/brackets

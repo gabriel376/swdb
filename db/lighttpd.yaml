@@ -1,5 +1,7 @@
 name: lighttpd
+source: open
 tags:
     - Web Server
 links:
     home: https://www.lighttpd.net/
+    repository: https://git.lighttpd.net/lighttpd

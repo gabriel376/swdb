@@ -1,5 +1,7 @@
 name: Neo4j
+source: open
 tags:
     - Database
 links:
     home: https://neo4j.com/
+    repository: https://github.com/neo4j/neo4j

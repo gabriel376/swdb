@@ -1,5 +1,7 @@
 name: Rocket Chat
+source: open
 tags:
     - Instant Messaging Client
 links:
     home: https://rocket.chat/
+    repository: https://github.com/RocketChat/Rocket.Chat

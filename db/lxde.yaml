@@ -1,5 +1,7 @@
 name: LXDE
+source: open
 tags:
     - Desktop Environment
 links:
     home: https://lxde.org/
+    repository: https://sourceforge.net/projects/lxde/files/

@@ -1,5 +1,7 @@
 name: Apache Cassandra
+source: open
 tags:
     - Database
 links:
     home: http://cassandra.apache.org/
+    repository: https://github.com/apache/cassandra

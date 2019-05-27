@@ -1,5 +1,7 @@
 name: Puppet
+source: open
 tags:
     - Configuration Management
 links:
     home: https://puppet.com/
+    repository: https://github.com/puppetlabs/puppet

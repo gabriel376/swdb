@@ -1,5 +1,7 @@
 name: Make
+source: open
 tags:
     - Build Automation
 links:
     home: https://www.gnu.org/software/make/
+    repository: http://git.savannah.gnu.org/cgit/make.git

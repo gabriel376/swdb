@@ -1,5 +1,7 @@
 name: Evolution
+source: open
 tags:
     - Email Client
 links:
     home: https://wiki.gnome.org/Apps/Evolution
+    repository: https://gitlab.gnome.org/GNOME/evolution

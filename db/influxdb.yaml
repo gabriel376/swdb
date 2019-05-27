@@ -1,5 +1,7 @@
 name: InfluxDB
+source: open
 tags:
     - Database
 links:
     home: https://www.influxdata.com/products/influxdb-overview/
+    repository: https://github.com/influxdata/influxdb

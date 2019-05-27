@@ -1,5 +1,7 @@
 name: ownCloud
+source: open
 tags:
     - File Synchronization
 links:
     home: https://owncloud.org/
+    repository: https://github.com/owncloud/core

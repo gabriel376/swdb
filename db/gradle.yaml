@@ -1,5 +1,7 @@
 name: Gradle
+source: open
 tags:
     - Build Automation
 links:
     home: https://gradle.org/
+    repository: https://github.com/gradle/gradle

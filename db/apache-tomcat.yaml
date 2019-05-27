@@ -1,5 +1,7 @@
 name: Apache Tomcat
+source: open
 tags:
     - Web Server
 links:
     home: https://tomcat.apache.org/
+    repository: https://github.com/apache/tomcat

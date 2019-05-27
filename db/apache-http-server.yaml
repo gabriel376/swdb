@@ -1,5 +1,7 @@
 name: Apache HTTP Server
+source: open
 tags:
     - Web Server
 links:
     home: https://httpd.apache.org/
+    repository: https://github.com/apache/httpd

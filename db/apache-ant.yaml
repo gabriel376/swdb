@@ -1,5 +1,7 @@
 name: Apache Ant
+source: open
 tags:
     - Build Automation
 links:
     home: https://ant.apache.org/
+    repository: https://github.com/apache/ant

@@ -1,5 +1,7 @@
 name: Subversion
+source: open
 tags:
     - Version Control
 links:
     home: https://subversion.apache.org/
+    repository: https://svn.apache.org/viewvc/subversion/trunk/

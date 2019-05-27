@@ -1,5 +1,7 @@
 name: Ninja
+source: open
 tags:
     - Build Automation
 links:
     home: https://ninja-build.org/
+    repository: https://github.com/ninja-build/ninja

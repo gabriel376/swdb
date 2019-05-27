@@ -1,5 +1,7 @@
 name: SonarQube
+source: open
 tags:
     - Static Code Analysis
 links:
     home: https://www.sonarqube.org/
+    repository: https://github.com/SonarSource/sonarqube

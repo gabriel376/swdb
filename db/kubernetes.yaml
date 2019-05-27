@@ -1,5 +1,7 @@
 name: Kubernetes
+source: open
 tags:
     - Container Orchestration
 links:
     home: https://kubernetes.io/
+    repository: https://github.com/kubernetes/kubernetes

@@ -1,5 +1,7 @@
 name: NextCloud
+source: open
 tags:
     - File Synchronization
 links:
     home: https://nextcloud.com/
+    repository: https://github.com/nextcloud/server

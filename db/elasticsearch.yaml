@@ -1,6 +1,8 @@
 name: Elasticsearch
+source: open
 tags:
     - Database
     - Search Engine
 links:
     home: https://www.elastic.co/products/elasticsearch
+    repository: https://github.com/elastic/elasticsearch

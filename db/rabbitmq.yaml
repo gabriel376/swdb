@@ -1,5 +1,7 @@
 name: RabbitMQ
+source: open
 tags:
     - Message Broker
 links:
     home: https://www.rabbitmq.com/
+    repository: https://github.com/rabbitmq/rabbitmq-server

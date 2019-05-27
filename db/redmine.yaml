@@ -1,6 +1,8 @@
 name: Redmine
+source: open
 tags:
     - Bug Tracking
     - Project Management
 links:
     home: http://www.redmine.org/
+    repository: https://svn.redmine.org/redmine/

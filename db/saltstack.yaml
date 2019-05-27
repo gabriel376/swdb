@@ -1,5 +1,7 @@
 name: SaltStack
+source: open
 tags:
     - Configuration Management
 links:
     home: https://www.saltstack.com/
+    repository: https://github.com/saltstack/salt

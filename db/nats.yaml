@@ -1,5 +1,7 @@
 name: NATS
+source: open
 tags:
     - Message Broker
 links:
     home: https://www.nats.io/
+    repository: https://github.com/nats-io/nats-server

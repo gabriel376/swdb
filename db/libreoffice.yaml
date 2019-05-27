@@ -1,5 +1,7 @@
 name: LibreOffice
+source: open
 tags:
     - Office Suite
 links:
     home: https://www.libreoffice.org/
+    repository: https://gerrit.libreoffice.org/plugins/gitiles/core

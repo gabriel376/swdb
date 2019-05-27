@@ -1,6 +1,8 @@
 name: Apache Solr
+source: open
 tags:
     - Database
     - Search Engine
 links:
     home: https://lucene.apache.org/solr/
+    repository: https://github.com/apache/lucene-solr

@@ -1,5 +1,7 @@
 name: rsync
+source: open
 tags:
     - File Synchronization
 links:
     home: https://rsync.samba.org/
+    repository: https://git.samba.org/rsync.git/

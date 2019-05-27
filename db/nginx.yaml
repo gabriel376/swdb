@@ -1,7 +1,9 @@
 name: Nginx
+source: open
 tags:
     - Load Balancer
     - Reverse Proxy
     - Web Server
 links:
     home: http://nginx.org/
+    repository: https://github.com/nginx/nginx

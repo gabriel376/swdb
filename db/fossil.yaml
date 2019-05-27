@@ -1,5 +1,7 @@
 name: Fossil
+source: open
 tags:
     - Version Control
 links:
     home: https://www.fossil-scm.org/
+    repository: https://www.fossil-scm.org/index.html/dir

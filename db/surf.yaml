@@ -1,5 +1,7 @@
 name: surf
+source: open
 tags:
     - Browser
 links:
     home: https://surf.suckless.org/
+    repository: https://git.suckless.org/surf/

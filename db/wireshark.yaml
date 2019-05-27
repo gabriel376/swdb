@@ -1,5 +1,7 @@
 name: Wireshark
+source: open
 tags:
     - Packet Analyzer
 links:
     home: https://www.wireshark.org/
+    repository: https://code.wireshark.org/review/gitweb

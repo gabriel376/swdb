@@ -1,5 +1,7 @@
 name: Pale Moon
+source: open
 tags:
     - Browser
 links:
     home: https://www.palemoon.org/
+    repository: https://github.com/MoonchildProductions/UXP

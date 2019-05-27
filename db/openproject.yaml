@@ -1,6 +1,8 @@
 name: OpenProject
+source: open
 tags:
     - Bug Tracking
     - Project Management
 links:
     home: https://www.openproject.org/
+    repository: https://github.com/opf/openproject

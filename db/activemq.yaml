@@ -1,5 +1,7 @@
 name: ActiveMQ
+source: open
 tags:
     - Message Broker
 links:
     home: http://activemq.apache.org/
+    repository: https://github.com/apache/activemq

@@ -1,4 +1,5 @@
 name: Google Chrome
+source: closed
 tags:
     - Browser
 links:

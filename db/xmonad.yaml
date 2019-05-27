@@ -1,5 +1,7 @@
 name: xmonad
+source: open
 tags:
     - Window Manager
 links:
     home: https://xmonad.org/
+    repository: https://github.com/xmonad/xmonad

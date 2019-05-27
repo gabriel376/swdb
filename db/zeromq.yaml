@@ -1,5 +1,7 @@
 name: ZeroMQ
+source: open
 tags:
     - Message Broker
 links:
     home: http://zeromq.org/
+    repository: https://github.com/zeromq/libzmq

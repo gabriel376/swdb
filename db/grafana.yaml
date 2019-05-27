@@ -1,5 +1,7 @@
 name: Grafana
+source: open
 tags:
     - Data Visualization
 links:
     home: https://grafana.com/
+    repository: https://github.com/grafana/grafana

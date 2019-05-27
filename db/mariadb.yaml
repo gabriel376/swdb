@@ -1,5 +1,7 @@
 name: MariaDB
+source: open
 tags:
     - Database
 links:
     home: https://mariadb.org/
+    repository: https://github.com/MariaDB/server

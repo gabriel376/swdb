@@ -1,5 +1,7 @@
 name: Empathy
+source: open
 tags:
     - Instant Messaging Client
 links:
     home: https://wiki.gnome.org/Apps/Empathy/
+    repository: https://gitlab.gnome.org/GNOME/empathy/tree/master/

@@ -1,5 +1,7 @@
 name: Chronograf
+source: open
 tags:
     - Data Visualization
 links:
     home: https://www.influxdata.com/time-series-platform/chronograf/
+    repository: https://github.com/influxdata/chronograf

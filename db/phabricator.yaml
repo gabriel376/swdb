@@ -1,6 +1,8 @@
 name: Phabricator
+source: open
 tags:
     - Bug Tracking
     - Project Management
 links:
     home: https://phacility.com/phabricator/
+    repository: https://github.com/phacility/phabricator
