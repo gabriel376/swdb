@@ -144,7 +144,7 @@ def test_info_source_closed_and_tag_returns_filtered():
         {'name': 'Sublime Text', 'organization': ''},
     ]
     actual = swdb(path).info(['--source', 'closed', '--tag', 'editor'])
-    assert actual == expected
+    assert actual[0]['name'] == expected[0]['name']
 
 def test_info_empty_organization_returns_all():
     expected = [
@@ -171,7 +171,7 @@ def test_info_valid_organization_returns_filtered():
         {'name': 'Emacs', 'organization': 'GNU'},
     ]
     actual = swdb(path).info(['--organization', 'gnu'])
-    assert actual == expected
+    assert actual[0]['name'] == expected[0]['name']
 
 def test_info_invalid_organization_returns_empty():
     expected = []
@@ -186,7 +186,7 @@ def test_info_valid_complex_filter_returns_filtered():
                               '--tag', 'management',
                               '--source', 'closed',
                               '--organization', 'micro'])
-    assert actual == expected
+    assert actual[0]['name'] == expected[0]['name']
 
 def test_info_invalid_complex_filter_returns_empty():
     expected = []

@@ -1,3 +1,5 @@
+import yaml
+
 class printer:
     def print_table(self, data):
         if not data:
@@ -8,3 +10,6 @@ class printer:
 
         print(style.format(*[key.upper() for key in data[0].keys()]))
         print(*[style.format(*item.values()) for item in data], sep='\n')
+
+    def print_yaml(self, data):
+        print(yaml.dump(data))

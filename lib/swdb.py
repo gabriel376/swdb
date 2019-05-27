@@ -41,6 +41,10 @@ class swdb:
 
         data = self.db.load()
         filtered = [item for item in data if match(item)]
+
+        if len(filtered) == 1:
+            return filtered
+
         info = [{'organization': item['organization'] if 'organization' in item else '',
                  'name': item['name']} for item in filtered]
         return sorted(info, key=lambda item: item['name'].lower())
@@ -62,4 +66,7 @@ if __name__ == '__main__':
         exit(1)
 
     data = commands[args.command](sys.argv[2:])
-    printer().print_table(data)
+    if len(data) == 1:
+        printer().print_yaml(data[0])
+    else:
+        printer().print_table(data)
