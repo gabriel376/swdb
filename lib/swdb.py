@@ -29,17 +29,20 @@ class swdb:
         parser.add_argument('--name', default='', help='filter by name')
         parser.add_argument('--tag', default='', help='filter by tag')
         parser.add_argument('--source', choices=['open', 'closed'], help='filter by source')
+        parser.add_argument('--organization', default='', help='filter by organization')
         args = parser.parse_args(argv)
 
         match = lambda item: (
             args.name.lower() in item['name'].lower()
             and args.tag.lower() in ''.join(item['tags']).lower()
             and (not args.source or ('source' in item and args.source.lower() in item['source'].lower()))
+            and (not args.organization or ('organization' in item and args.organization.lower() in item['organization'].lower()))
         )
 
         data = self.db.load()
         filtered = [item for item in data if match(item)]
-        info = [{'name': item['name']} for item in filtered]
+        info = [{'organization': item['organization'] if 'organization' in item else '',
+                 'name': item['name']} for item in filtered]
         return sorted(info, key=lambda item: item['name'].lower())
 
 if __name__ == '__main__':

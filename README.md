@@ -10,7 +10,7 @@ python3 lib/swdb.py -h
 
 ## Test
 ```Shell
-python3 -m pytest test/test.py
+python3 -m pytest test/test.py -vv
 ```
 
 ## Cheat Sheet
@@ -20,10 +20,11 @@ swdb -v                # print version
 
 swdb tags              # get tags and sw count
 
-swdb info                  \    # get sw info
-    --name=[name]          \    # filter by name
-    --tag=[tag]            \    # filter by tag
-    --source=[open,closed]      # filter by source
+swdb info                         \    # get sw info
+    --tag=[tag]                   \    # filter by tag
+    --name=[name]                 \    # filter by name
+    --source=[open,closed]        \    # filter by source
+    --organization=[organization]      # filter by organization
 ```
 
 ## License

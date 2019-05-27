@@ -1,0 +1,8 @@
+name: Visual Studio Code
+organization: Microsoft
+source: open
+tags:
+    - Text Editor
+links:
+    home: https://code.visualstudio.com/
+    repository: https://github.com/microsoft/vscode

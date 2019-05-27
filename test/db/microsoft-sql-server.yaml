@@ -1,0 +1,7 @@
+name: Microsoft SQL Server
+organization: Microsoft
+source: closed
+tags:
+    - Database
+links:
+    home: https://www.microsoft.com/en-us/sql-server

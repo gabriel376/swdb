@@ -3,8 +3,8 @@ class printer:
         if not data:
             return
 
-        keys_width = [max(len(str(item[key])) for item in data) for key in data[0]]
-        style = ''.join('{: <' + str(width + 4) + '}' for width in keys_width)
+        columns = [max(len(str(item[key])) for item in [{key: key for key in data[0]}, *data]) for key in data[0]]
+        style = ''.join('{: <' + str(col + 4) + '}' for col in columns)
 
         print(style.format(*[key.upper() for key in data[0].keys()]))
         print(*[style.format(*item.values()) for item in data], sep='\n')
