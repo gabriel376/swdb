@@ -1,4 +1,5 @@
 name: Jetty
+organization: Eclipse
 source: open
 tags:
     - Web Server

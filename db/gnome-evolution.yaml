@@ -1,4 +1,5 @@
 name: Evolution
+organization: GNOME
 source: open
 tags:
     - Email Client

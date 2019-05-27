@@ -1,4 +1,5 @@
 name: Ansible
+organization: Red Hat
 source: open
 tags:
     - Configuration Management

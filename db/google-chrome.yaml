@@ -1,4 +1,5 @@
 name: Google Chrome
+organization: Google
 source: closed
 tags:
     - Browser

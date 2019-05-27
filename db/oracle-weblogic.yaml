@@ -1,4 +1,5 @@
-name: Oracle Weblogic
+name: Weblogic
+organization: Oracle
 source: closed
 tags:
     - Web Server

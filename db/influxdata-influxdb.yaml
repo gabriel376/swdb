@@ -1,4 +1,5 @@
 name: InfluxDB
+organization: InfluxData
 source: open
 tags:
     - Database

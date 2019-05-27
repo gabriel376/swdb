@@ -1,4 +1,5 @@
 name: nano
+organization: GNU
 source: open
 tags:
     - Text Editor

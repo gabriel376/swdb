@@ -1,4 +1,5 @@
-name: Apache HTTP Server
+name: HTTP Server
+organization: Apache
 source: open
 tags:
     - Web Server

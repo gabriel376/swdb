@@ -1,4 +1,5 @@
 name: Empathy
+organization: GNOME
 source: open
 tags:
     - Instant Messaging Client

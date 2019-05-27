@@ -1,4 +1,5 @@
 name: Etcher
+organization: Balena
 source: open
 tags:
     - Live USB Creator

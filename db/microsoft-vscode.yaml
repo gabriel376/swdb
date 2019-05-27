@@ -1,4 +1,5 @@
 name: Visual Studio Code
+organization: Microsoft
 source: open
 tags:
     - Text Editor

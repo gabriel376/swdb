@@ -1,0 +1,7 @@
+name: Coverity Scan
+organization: Synopsys
+source: closed
+tags:
+    - Static Code Analysis
+links:
+    home: https://scan.coverity.com/

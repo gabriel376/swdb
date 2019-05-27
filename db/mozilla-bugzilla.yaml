@@ -1,4 +1,5 @@
 name: Bugzilla
+organization: Mozilla
 source: open
 tags:
     - Bug Tracking

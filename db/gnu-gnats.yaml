@@ -1,4 +1,5 @@
 name: GNATS
+organization: GNU
 source: open
 tags:
     - Bug Tracking

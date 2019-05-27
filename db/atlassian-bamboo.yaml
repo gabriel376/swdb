@@ -1,4 +1,5 @@
 name: Bamboo
+organization: Atlassian
 source: closed
 tags:
     - Continuous Integration

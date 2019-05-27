@@ -1,4 +1,5 @@
 name: dwm
+organization: suckless
 source: open
 tags:
     - Window Manager

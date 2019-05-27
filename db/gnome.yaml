@@ -1,4 +1,5 @@
 name: GNOME
+organization: GNOME
 source: open
 tags:
     - Desktop Environment

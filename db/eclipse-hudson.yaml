@@ -1,4 +1,5 @@
 name: Hudson
+organization: Eclipse
 source: open
 tags:
     - Continuous Integration

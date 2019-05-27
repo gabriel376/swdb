@@ -1,4 +1,5 @@
-name: Mozilla Thunderbird
+name: Thunderbird
+organization: Mozilla
 source: open
 tags:
     - Email Client

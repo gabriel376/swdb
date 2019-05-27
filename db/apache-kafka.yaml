@@ -1,4 +1,5 @@
-name: Apache Kafka
+name: Kafka
+organization: Apache
 source: open
 tags:
     - Message Broker

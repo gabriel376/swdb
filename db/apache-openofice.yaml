@@ -1,4 +1,5 @@
 name: OpenOffice
+organization: Apache
 source: open
 tags:
     - Office Suite

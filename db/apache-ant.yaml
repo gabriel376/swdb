@@ -1,4 +1,5 @@
-name: Apache Ant
+name: Ant
+organization: Apache
 source: open
 tags:
     - Build Automation

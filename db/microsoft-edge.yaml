@@ -1,4 +1,5 @@
 name: Microsoft Edge
+organization: Microsoft
 source: closed
 tags:
     - Browser

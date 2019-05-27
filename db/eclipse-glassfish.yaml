@@ -1,4 +1,5 @@
 name: GlassFish
+organization: Eclipse
 source: open
 tags:
     - Web Server

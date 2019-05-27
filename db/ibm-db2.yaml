@@ -1,4 +1,5 @@
-name: IBM Db2
+name: Db2
+organization: IBM
 source: closed
 tags:
     - Database

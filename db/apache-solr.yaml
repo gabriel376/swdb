@@ -1,4 +1,5 @@
-name: Apache Solr
+name: Solr
+organization: Apache
 source: open
 tags:
     - Database

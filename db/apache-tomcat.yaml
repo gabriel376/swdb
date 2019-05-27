@@ -1,4 +1,5 @@
-name: Apache Tomcat
+name: Tomcat
+organization: Apache
 source: open
 tags:
     - Web Server

@@ -1,4 +1,5 @@
-name: Apache Maven
+name: Maven
+organization: Apache
 source: open
 tags:
     - Build Automation

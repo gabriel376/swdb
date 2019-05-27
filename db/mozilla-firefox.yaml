@@ -1,4 +1,5 @@
-name: Mozilla Firefox
+name: Firefox
+organization: Mozilla
 source: open
 tags:
     - Browser

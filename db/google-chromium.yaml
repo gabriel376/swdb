@@ -1,4 +1,5 @@
 name: Chromium
+organization: Google
 source: open
 tags:
     - Browser

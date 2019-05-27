@@ -1,4 +1,5 @@
-name: KDE Plasma
+name: Plasma
+organization: KDE
 source: open
 tags:
     - Desktop Environment

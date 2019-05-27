@@ -1,6 +1,0 @@
-name: Coverity
-source: closed
-tags:
-    - Static Code Analysis
-links:
-    home: https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html

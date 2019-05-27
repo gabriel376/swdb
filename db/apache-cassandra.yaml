@@ -1,4 +1,5 @@
-name: Apache Cassandra
+name: Cassandra
+organization: Apache
 source: open
 tags:
     - Database

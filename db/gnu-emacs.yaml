@@ -1,4 +1,5 @@
 name: Emacs
+organization: GNU
 source: open
 tags:
     - Text Editor

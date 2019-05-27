@@ -1,4 +1,5 @@
 name: Elasticsearch
+organization: Elastic
 source: open
 tags:
     - Database

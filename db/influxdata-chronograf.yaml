@@ -1,4 +1,5 @@
 name: Chronograf
+organization: InfluxData
 source: open
 tags:
     - Data Visualization

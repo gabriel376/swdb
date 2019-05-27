@@ -1,4 +1,5 @@
 name: Make
+organization: GNU
 source: open
 tags:
     - Build Automation

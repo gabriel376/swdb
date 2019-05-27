@@ -1,4 +1,5 @@
 name: Kompare
+organization: KDE
 source: open
 tags:
     - Diff Viewer
