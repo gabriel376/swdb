@@ -10,8 +10,9 @@ VERSION = 'swdb 0.1.0'
 USAGE = '''swdb [command] [options]
 
 commands:
-    tags        get tags and sw count
+    tags        get tags
     info        get sw info
+    cross       compare sw
 '''
 
 class swdb:
@@ -49,6 +50,18 @@ class swdb:
                  'name': item['name']} for item in filtered]
         return sorted(info, key=lambda item: item['name'].lower())
 
+    def cross(self, argv=[]):
+        parser = argparse.ArgumentParser()
+        parser.add_argument('name', nargs='+', help='sw name')
+        args = parser.parse_args(argv)
+
+        data = self.db.load()
+        filtered = [item for item in data if item['name'].lower() in map(str.lower, args.name)]
+        filtered.sort(key=lambda item: [arg.lower() for arg in args.name].index(item['name'].lower()))
+        keys = ['organization', 'source']
+        cross = [{'key': key, **{item['name']: item[key] if key in item else '' for item in filtered}} for key in keys]
+        return cross
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(usage=USAGE)
     parser.add_argument('command')
@@ -58,6 +71,7 @@ if __name__ == '__main__':
     commands = {
         'tags': swdb(PATH).tags,
         'info': swdb(PATH).info,
+        'cross': swdb(PATH).cross,
     }
 
     if args.command not in commands:

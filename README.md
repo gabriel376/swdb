@@ -15,16 +15,18 @@ python3 -m pytest test/test.py -vv
 
 ## Cheat Sheet
 ```
-swdb -h                # print help
-swdb -v                # print version
+swdb -h                   # print help
+swdb -v                   # print version
 
-swdb tags              # get tags and sw count
+swdb tags                 # get tags
 
-swdb info                         \    # get sw info
-    --tag=[tag]                   \    # filter by tag
-    --name=[name]                 \    # filter by name
-    --source=[open,closed]        \    # filter by source
-    --organization=[organization]      # filter by organization
+swdb info            \    # get sw info
+    [--tag]          \    # filter by tag
+    [--name]         \    # filter by name
+    [--source]       \    # filter by source
+    [--organization]      # filter by organization
+
+swdb cross [name...]      # compare sw
 ```
 
 ## License

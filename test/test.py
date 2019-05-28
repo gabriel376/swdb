@@ -16,52 +16,52 @@ def test_tags():
 
 def test_info():
     expected = [
-        {'name': 'Emacs', 'organization': 'GNU'},
-        {'name': 'Go', 'organization': ''},
-        {'name': 'Microsoft Edge', 'organization': 'Microsoft'},
-        {'name': 'Microsoft Project', 'organization': 'Microsoft'},
-        {'name': 'Microsoft SQL Server', 'organization': 'Microsoft'},
-        {'name': 'MongoDB', 'organization': ''},
-        {'name': 'MySQL', 'organization': ''},
-        {'name': 'PostgreSQL', 'organization': ''},
-        {'name': 'Python', 'organization': ''},
-        {'name': 'Redis', 'organization': ''},
-        {'name': 'Rust', 'organization': ''},
-        {'name': 'Sublime Text', 'organization': ''},
-        {'name': 'Vim', 'organization': ''},
-        {'name': 'Visual Studio Code', 'organization': 'Microsoft'},
+        'Emacs',
+        'Go',
+        'Microsoft Edge',
+        'Microsoft Project',
+        'Microsoft SQL Server',
+        'MongoDB',
+        'MySQL',
+        'PostgreSQL',
+        'Python',
+        'Redis',
+        'Rust',
+        'Sublime Text',
+        'Vim',
+        'Visual Studio Code',
     ]
     actual = swdb(path).info()
-    assert actual == expected
+    assert [item['name'] for item in actual] == expected
 
 def test_info_empty_name_returns_all():
     expected = [
-        {'name': 'Emacs', 'organization': 'GNU'},
-        {'name': 'Go', 'organization': ''},
-        {'name': 'Microsoft Edge', 'organization': 'Microsoft'},
-        {'name': 'Microsoft Project', 'organization': 'Microsoft'},
-        {'name': 'Microsoft SQL Server', 'organization': 'Microsoft'},
-        {'name': 'MongoDB', 'organization': ''},
-        {'name': 'MySQL', 'organization': ''},
-        {'name': 'PostgreSQL', 'organization': ''},
-        {'name': 'Python', 'organization': ''},
-        {'name': 'Redis', 'organization': ''},
-        {'name': 'Rust', 'organization': ''},
-        {'name': 'Sublime Text', 'organization': ''},
-        {'name': 'Vim', 'organization': ''},
-        {'name': 'Visual Studio Code', 'organization': 'Microsoft'},
+        'Emacs',
+        'Go',
+        'Microsoft Edge',
+        'Microsoft Project',
+        'Microsoft SQL Server',
+        'MongoDB',
+        'MySQL',
+        'PostgreSQL',
+        'Python',
+        'Redis',
+        'Rust',
+        'Sublime Text',
+        'Vim',
+        'Visual Studio Code',
     ]
     actual = swdb(path).info(['--name', ''])
-    assert actual == expected
+    assert [item['name'] for item in actual] == expected
 
 def test_info_valid_name_returns_filtered():
     expected = [
-        {'name': 'Microsoft SQL Server', 'organization': 'Microsoft'},
-        {'name': 'MySQL', 'organization': ''},
-        {'name': 'PostgreSQL', 'organization': ''},
+        'Microsoft SQL Server',
+        'MySQL',
+        'PostgreSQL',
     ]
     actual = swdb(path).info(['--name', 'sql'])
-    assert actual == expected
+    assert [item['name'] for item in actual] == expected
 
 def test_info_invalid_name_returns_empty():
     expected = []
@@ -70,33 +70,33 @@ def test_info_invalid_name_returns_empty():
 
 def test_info_empty_tag_returns_all():
     expected = [
-        {'name': 'Emacs', 'organization': 'GNU'},
-        {'name': 'Go', 'organization': ''},
-        {'name': 'Microsoft Edge', 'organization': 'Microsoft'},
-        {'name': 'Microsoft Project', 'organization': 'Microsoft'},
-        {'name': 'Microsoft SQL Server', 'organization': 'Microsoft'},
-        {'name': 'MongoDB', 'organization': ''},
-        {'name': 'MySQL', 'organization': ''},
-        {'name': 'PostgreSQL', 'organization': ''},
-        {'name': 'Python', 'organization': ''},
-        {'name': 'Redis', 'organization': ''},
-        {'name': 'Rust', 'organization': ''},
-        {'name': 'Sublime Text', 'organization': ''},
-        {'name': 'Vim', 'organization': ''},
-        {'name': 'Visual Studio Code', 'organization': 'Microsoft'},
+        'Emacs',
+        'Go',
+        'Microsoft Edge',
+        'Microsoft Project',
+        'Microsoft SQL Server',
+        'MongoDB',
+        'MySQL',
+        'PostgreSQL',
+        'Python',
+        'Redis',
+        'Rust',
+        'Sublime Text',
+        'Vim',
+        'Visual Studio Code',
     ]
     actual = swdb(path).info(['--tag', ''])
-    assert actual == expected
+    assert [item['name'] for item in actual] == expected
 
 def test_info_valid_tag_returns_filtered():
     expected = [
-        {'name': 'Emacs', 'organization': 'GNU'},
-        {'name': 'Sublime Text', 'organization': ''},
-        {'name': 'Vim', 'organization': ''},
-        {'name': 'Visual Studio Code', 'organization': 'Microsoft'},
+        'Emacs',
+        'Sublime Text',
+        'Vim',
+        'Visual Studio Code',
     ]
     actual = swdb(path).info(['--tag', 'text'])
-    assert actual == expected
+    assert [item['name'] for item in actual] == expected
 
 def test_info_invalid_tag_returns_empty():
     expected = []
@@ -105,12 +105,12 @@ def test_info_invalid_tag_returns_empty():
 
 def test_info_valid_name_and_tag_returns_filtered():
     expected = [
-        {'name': 'Microsoft SQL Server', 'organization': 'Microsoft'},
-        {'name': 'MongoDB', 'organization': ''},
-        {'name': 'PostgreSQL', 'organization': ''},
+        'Microsoft SQL Server',
+        'MongoDB',
+        'PostgreSQL',
     ]
     actual = swdb(path).info(['--name', 'o', '--tag', 'data'])
-    assert actual == expected
+    assert [item['name'] for item in actual] == expected
 
 def test_info_invalid_name_and_tag_returns_empty():
     expected = []
@@ -119,59 +119,59 @@ def test_info_invalid_name_and_tag_returns_empty():
 
 def test_info_source_open_returns_filtered():
     expected = [
-        {'name': 'Emacs', 'organization': 'GNU'},
-        {'name': 'MongoDB', 'organization': ''},
-        {'name': 'MySQL', 'organization': ''},
-        {'name': 'PostgreSQL', 'organization': ''},
-        {'name': 'Redis', 'organization': ''},
-        {'name': 'Vim', 'organization': ''},
-        {'name': 'Visual Studio Code', 'organization': 'Microsoft'},
+        'Emacs',
+        'MongoDB',
+        'MySQL',
+        'PostgreSQL',
+        'Redis',
+        'Vim',
+        'Visual Studio Code',
     ]
     actual = swdb(path).info(['--source', 'open'])
-    assert actual == expected
+    assert [item['name'] for item in actual] == expected
 
 def test_info_source_open_and_tag_returns_filtered():
     expected = [
-        {'name': 'Emacs', 'organization': 'GNU'},
-        {'name': 'Vim', 'organization': ''},
-        {'name': 'Visual Studio Code', 'organization': 'Microsoft'},
+        'Emacs',
+        'Vim',
+        'Visual Studio Code',
     ]
     actual = swdb(path).info(['--source', 'open', '--tag', 'editor'])
-    assert actual == expected
+    assert [item['name'] for item in actual] == expected
 
 def test_info_source_closed_and_tag_returns_filtered():
     expected = [
-        {'name': 'Sublime Text', 'organization': ''},
+        'Sublime Text',
     ]
     actual = swdb(path).info(['--source', 'closed', '--tag', 'editor'])
-    assert actual[0]['name'] == expected[0]['name']
+    assert actual[0]['name'] == expected[0]
 
 def test_info_empty_organization_returns_all():
     expected = [
-        {'name': 'Emacs', 'organization': 'GNU'},
-        {'name': 'Go', 'organization': ''},
-        {'name': 'Microsoft Edge', 'organization': 'Microsoft'},
-        {'name': 'Microsoft Project', 'organization': 'Microsoft'},
-        {'name': 'Microsoft SQL Server', 'organization': 'Microsoft'},
-        {'name': 'MongoDB', 'organization': ''},
-        {'name': 'MySQL', 'organization': ''},
-        {'name': 'PostgreSQL', 'organization': ''},
-        {'name': 'Python', 'organization': ''},
-        {'name': 'Redis', 'organization': ''},
-        {'name': 'Rust', 'organization': ''},
-        {'name': 'Sublime Text', 'organization': ''},
-        {'name': 'Vim', 'organization': ''},
-        {'name': 'Visual Studio Code', 'organization': 'Microsoft'},
+        'Emacs',
+        'Go',
+        'Microsoft Edge',
+        'Microsoft Project',
+        'Microsoft SQL Server',
+        'MongoDB',
+        'MySQL',
+        'PostgreSQL',
+        'Python',
+        'Redis',
+        'Rust',
+        'Sublime Text',
+        'Vim',
+        'Visual Studio Code',
     ]
     actual = swdb(path).info(['--organization', ''])
-    assert actual == expected
+    assert [item['name'] for item in actual] == expected
 
 def test_info_valid_organization_returns_filtered():
     expected = [
-        {'name': 'Emacs', 'organization': 'GNU'},
+        'Emacs',
     ]
     actual = swdb(path).info(['--organization', 'gnu'])
-    assert actual[0]['name'] == expected[0]['name']
+    assert actual[0]['name'] == expected[0]
 
 def test_info_invalid_organization_returns_empty():
     expected = []
@@ -180,13 +180,13 @@ def test_info_invalid_organization_returns_empty():
 
 def test_info_valid_complex_filter_returns_filtered():
     expected = [
-        {'name': 'Microsoft Project', 'organization': 'Microsoft'},
+        'Microsoft Project',
     ]
     actual = swdb(path).info(['--name', 'project',
                               '--tag', 'management',
                               '--source', 'closed',
                               '--organization', 'micro'])
-    assert actual[0]['name'] == expected[0]['name']
+    assert actual[0]['name'] == expected[0]
 
 def test_info_invalid_complex_filter_returns_empty():
     expected = []
@@ -194,4 +194,28 @@ def test_info_invalid_complex_filter_returns_empty():
                               '--tag', 'data',
                               '--source', 'open',
                               '--organization', 'xxx'])
+    assert actual == expected
+
+def test_cross_single_name():
+    expected = [
+        {'key': 'organization', 'Vim': ''},
+        {'key': 'source', 'Vim': 'open'},
+    ]
+    actual = swdb(path).cross(['vim'])
+    assert actual == expected
+
+def test_cross_valid_names():
+    expected = [
+        {'key': 'organization', 'Vim': '', 'Sublime Text': '', 'Emacs': 'GNU'},
+        {'key': 'source', 'Vim': 'open', 'Sublime Text': 'closed', 'Emacs': 'open'},
+    ]
+    actual = swdb(path).cross(['vim', 'sublime text', 'emacs'])
+    assert actual == expected
+
+def test_cross_invalid_names():
+    expected = [
+        {'key': 'organization', 'Vim': '', 'Emacs': 'GNU'},
+        {'key': 'source', 'Vim': 'open', 'Emacs': 'open'},
+    ]
+    actual = swdb(path).cross(['vim', 'xxx', 'emacs'])
     assert actual == expected
