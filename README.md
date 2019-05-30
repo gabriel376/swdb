@@ -5,6 +5,7 @@
 ```Shell
 git clone https://github.com/gabriel376/swdb
 cd swdb
+sudo pip3 install -r requirements.txt
 python3 lib/swdb.py -h
 ```
 
