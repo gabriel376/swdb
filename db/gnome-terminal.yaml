@@ -1,0 +1,8 @@
+name: GNOME Terminal
+organization: GNOME
+source: open
+tags:
+    - Terminal Emulator
+links:
+    home: https://wiki.gnome.org/Apps/Terminal
+    repository: https://gitlab.gnome.org/GNOME/gnome-terminal/

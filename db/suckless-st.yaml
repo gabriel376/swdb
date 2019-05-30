@@ -1,0 +1,8 @@
+name: st
+organization: suckless
+source: open
+tags:
+    - Terminal Emulator
+links:
+    home: https://st.suckless.org/
+    repository: https://git.suckless.org/st/

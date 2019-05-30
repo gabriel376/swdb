@@ -1,0 +1,7 @@
+name: Guake
+source: open
+tags:
+    - Terminal Emulator
+links:
+    home: http://guake-project.org/
+    repository: https://github.com/Guake/guake

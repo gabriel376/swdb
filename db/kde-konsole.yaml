@@ -1,0 +1,8 @@
+name: Konsole
+organization: KDE
+source: open
+tags:
+    - Terminal Emulator
+links:
+    home: https://konsole.kde.org/
+    repository: https://cgit.kde.org/konsole.git

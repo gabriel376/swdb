@@ -1,0 +1,6 @@
+name: Termite
+source: open
+tags:
+    - Terminal Emulator
+links:
+    repository: https://github.com/thestinger/termite

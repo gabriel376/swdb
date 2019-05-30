@@ -1,0 +1,7 @@
+name: Midori
+source: open
+tags:
+    - Browser
+links:
+    home: https://www.midori-browser.org/
+    repository: https://github.com/midori-browser/core

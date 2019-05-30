@@ -1,0 +1,6 @@
+name: xterm
+source: open
+tags:
+    - Terminal Emulator
+links:
+    home: https://invisible-island.net/xterm/

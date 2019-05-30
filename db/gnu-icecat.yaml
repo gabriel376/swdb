@@ -1,0 +1,8 @@
+name: IceCat
+organization: GNU
+source: open
+tags:
+    - Browser
+links:
+    home: https://www.gnu.org/software/gnuzilla/
+    repository: http://git.savannah.gnu.org/cgit/gnuzilla.git

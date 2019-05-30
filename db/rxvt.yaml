@@ -1,0 +1,7 @@
+name: rxvt
+source: open
+tags:
+    - Terminal Emulator
+links:
+    home: http://rxvt.sourceforge.net/
+    repository: https://sourceforge.net/p/rxvt/code/HEAD/tree/
