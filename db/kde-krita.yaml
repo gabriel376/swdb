@@ -1,0 +1,8 @@
+name: Krita
+organization: KDE
+source: open
+tags:
+    - Image Editor
+links:
+    home: https://krita.org/
+    repository: https://cgit.kde.org/krita.git/

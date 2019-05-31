@@ -1,0 +1,6 @@
+name: sxiv
+source: open
+tags:
+    - Image Viewer
+links:
+    repository: https://github.com/muennich/sxiv

@@ -1,0 +1,8 @@
+name: Ristretto
+organization: Xfce
+source: open
+tags:
+    - Image Viewer
+links:
+    home: https://docs.xfce.org/apps/ristretto/start
+    repository: https://git.xfce.org/apps/ristretto/

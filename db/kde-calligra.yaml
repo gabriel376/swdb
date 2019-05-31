@@ -1,0 +1,8 @@
+name: Calligra
+organization: KDE
+source: open
+tags:
+    - Office Suite
+links:
+    home: https://www.calligra.org/
+    repository: https://cgit.kde.org/calligra.git/

@@ -1,0 +1,8 @@
+name: Konversation
+organization: KDE
+source: open
+tags:
+    - IRC Client
+links:
+    home: https://konversation.kde.org/
+    repository: https://cgit.kde.org/konversation.git/

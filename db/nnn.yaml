@@ -1,0 +1,6 @@
+name: nnn
+source: open
+tags:
+    - File Manager
+links:
+    repository: https://github.com/jarun/nnn

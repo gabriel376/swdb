@@ -1,0 +1,9 @@
+name: Konqueror
+organization: KDE
+source: open
+tags:
+    - Browser
+    - File Manager
+links:
+    home: https://konqueror.org/
+    repository: https://cgit.kde.org/konqueror.git/

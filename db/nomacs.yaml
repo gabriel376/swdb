@@ -1,0 +1,7 @@
+name: nomacs
+source: open
+tags:
+    - Image Viewer
+links:
+    home: https://nomacs.org/
+    repository: https://github.com/nomacs/nomacs

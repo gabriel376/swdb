@@ -1,0 +1,8 @@
+name: Eye of GNOME
+organization: GNOME
+source: open
+tags:
+    - Image Viewer
+links:
+    home: https://wiki.gnome.org/Apps/EyeOfGnome
+    repository: https://gitlab.gnome.org/GNOME/eog

@@ -1,0 +1,8 @@
+name: KTorrent
+organization: KDE
+source: open
+tags:
+    - BitTorrent Client
+links:
+    home: https://kde.org/applications/internet/ktorrent/
+    repository: https://cgit.kde.org/ktorrent.git/

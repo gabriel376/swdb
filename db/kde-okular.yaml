@@ -1,0 +1,8 @@
+name: Okular
+organization: KDE
+source: open
+tags:
+    - Document Viewer
+links:
+    home: https://okular.kde.org/
+    repository: https://cgit.kde.org/okular.git/

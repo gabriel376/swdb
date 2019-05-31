@@ -1,0 +1,8 @@
+name: KMail
+organization: KDE
+source: open
+tags:
+    - Email Client
+links:
+    home: https://kde.org/applications/internet/kmail/
+    repository: https://cgit.kde.org/kmail.git/

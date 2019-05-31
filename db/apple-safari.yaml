@@ -2,6 +2,6 @@ name: Safari
 organization: Apple
 source: closed
 tags:
-    - Safari
+    - Browser
 links:
     home: https://www.apple.com/lae/safari/

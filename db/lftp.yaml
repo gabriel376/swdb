@@ -1,0 +1,8 @@
+name: LFTP
+source: open
+tags:
+    - BitTorrent Client
+    - FTP Client
+links:
+    home: https://lftp.tech/
+    repository: https://github.com/lavv17/lftp

@@ -1,0 +1,7 @@
+name: Transmission
+source: open
+tags:
+    - BitTorrent Client
+links:
+    home: https://transmissionbt.com/
+    repository: https://github.com/transmission/transmission

@@ -1,0 +1,8 @@
+name: Midnight Commander
+organization: GNU
+source: open
+tags:
+    - File Manager
+links:
+    home: https://midnight-commander.org/
+    repository: https://github.com/MidnightCommander/mc

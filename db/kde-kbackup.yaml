@@ -1,0 +1,8 @@
+name: KBackup
+organization: KDE
+source: open
+tags:
+    - File Synchronization
+links:
+    home: https://kde.org/applications/utilities/kbackup/
+    repository: https://cgit.kde.org/kbackup.git/

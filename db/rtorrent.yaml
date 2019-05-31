@@ -1,0 +1,7 @@
+name: Rtorrent
+source: open
+tags:
+    - BitTorrent Client
+links:
+    home: https://rakshasa.github.io/rtorrent/
+    repository: https://github.com/rakshasa/rtorrent

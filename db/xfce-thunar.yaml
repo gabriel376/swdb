@@ -1,0 +1,8 @@
+name: Thunar
+organization: Xfce
+source: open
+tags:
+    - File Manager
+links:
+    home: https://docs.xfce.org/xfce/thunar/start
+    repository: https://git.xfce.org/xfce/thunar/

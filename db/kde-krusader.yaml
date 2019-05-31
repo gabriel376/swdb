@@ -1,0 +1,8 @@
+name: Konqueror
+organization: KDE
+source: open
+tags:
+    - File Manager
+links:
+    home: https://krusader.org/
+    repository: https://cgit.kde.org/krusader.git/

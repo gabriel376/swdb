@@ -1,7 +1,8 @@
 name: Xfce
+organization: Xfce
 source: open
 tags:
     - Desktop Environment
 links:
     home: https://xfce.org/
-    repository: http://archive.xfce.org/src/
+    repository: https://git.xfce.org/

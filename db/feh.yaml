@@ -1,0 +1,7 @@
+name: feh
+source: open
+tags:
+    - Image Viewer
+links:
+    home: https://feh.finalrewind.org/
+    repository: https://github.com/derf/feh

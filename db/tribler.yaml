@@ -1,0 +1,7 @@
+name: Tribler
+source: open
+tags:
+    - BitTorrent Client
+links:
+    home: https://www.tribler.org/
+    repository: https://github.com/Tribler/tribler

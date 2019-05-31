@@ -1,0 +1,8 @@
+name: GIMP
+organization: GNU
+source: open
+tags:
+    - Image Editor
+links:
+    home: https://www.gimp.org/
+    repository: https://gitlab.gnome.org/GNOME/gimp

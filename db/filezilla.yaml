@@ -1,0 +1,7 @@
+name: FileZilla
+source: open
+tags:
+    - FTP Client
+links:
+    home: https://filezilla-project.org/
+    repository: https://svn.filezilla-project.org/filezilla/FileZilla3/

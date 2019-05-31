@@ -1,0 +1,6 @@
+name: Zathura
+source: open
+tags:
+    - Document Viewer
+links:
+    repository: https://git.pwmt.org/pwmt/zathura

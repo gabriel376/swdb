@@ -1,0 +1,8 @@
+name: Commander
+organization: GNOME
+source: open
+tags:
+    - File Manager
+links:
+    home: https://gcmd.github.io/
+    repository: https://gitlab.gnome.org/GNOME/gnome-commander/

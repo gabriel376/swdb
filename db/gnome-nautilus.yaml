@@ -1,0 +1,8 @@
+name: Nautilus
+organization: GNOME
+source: open
+tags:
+    - File Manager
+links:
+    home: https://wiki.gnome.org/Apps/Nautilus
+    repository: https://gitlab.gnome.org/GNOME/nautilus

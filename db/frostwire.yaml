@@ -1,0 +1,7 @@
+name: FrostWire
+source: open
+tags:
+    - BitTorrent Client
+links:
+    home: https://www.frostwire.com/
+    repository: https://github.com/frostwire/frostwire

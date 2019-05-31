@@ -1,0 +1,7 @@
+name: curl
+source: open
+tags:
+    - FTP Client
+links:
+    home: https://curl.haxx.se/
+    repository: https://github.com/curl/curl

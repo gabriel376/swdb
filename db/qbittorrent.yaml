@@ -1,0 +1,7 @@
+name: qBittorrent
+source: open
+tags:
+    - BitTorrent Client
+links:
+    home: https://www.qbittorrent.org/
+    repository: https://github.com/qbittorrent/qBittorrent

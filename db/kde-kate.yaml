@@ -5,4 +5,4 @@ tags:
     - Text Editor
 links:
     home: https://kate-editor.org/
-    repository: https://github.com/KDE/kate
+    repository: https://cgit.kde.org/kate.git/

@@ -1,0 +1,8 @@
+name: Dolphin
+organization: KDE
+source: open
+tags:
+    - File Manager
+links:
+    home: https://kde.org/applications/system/dolphin/
+    repository: https://cgit.kde.org/dolphin.git/

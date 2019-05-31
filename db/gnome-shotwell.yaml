@@ -1,0 +1,8 @@
+name: Shotwell
+organization: GNOME
+source: open
+tags:
+    - Image Viewer
+links:
+    home: https://wiki.gnome.org/Apps/Shotwell
+    repository: https://gitlab.gnome.org/GNOME/shotwell/

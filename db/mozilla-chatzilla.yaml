@@ -1,0 +1,8 @@
+name: ChatZilla
+organization: Mozilla
+source: open
+tags:
+    - IRC Client
+links:
+    home: http://chatzilla.hacksrus.com/
+    repository: https://hg.mozilla.org/chatzilla

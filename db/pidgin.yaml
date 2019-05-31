@@ -2,6 +2,7 @@ name: Pidgin
 source: open
 tags:
     - Instant Messaging Client
+    - IRC Client
 links:
     home: https://pidgin.im/
     repository: https://bitbucket.org/pidgin/main/src/default/

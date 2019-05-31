@@ -1,0 +1,8 @@
+name: KDiff3
+organization: KDE
+source: open
+tags:
+    - Diff Viewer
+links:
+    home: https://kde.org/applications/development/kdiff3/
+    repository: https://cgit.kde.org/kdiff3.git/

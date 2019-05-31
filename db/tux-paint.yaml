@@ -1,0 +1,7 @@
+name: Tux Paint
+source: open
+tags:
+    - Image Editor
+links:
+    home: http://www.tuxpaint.org/
+    repository: https://sourceforge.net/p/tuxpaint/tuxpaint/ci/master/tree/

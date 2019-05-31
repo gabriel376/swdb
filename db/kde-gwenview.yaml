@@ -1,0 +1,8 @@
+name: Gwenview
+organization: KDE
+source: open
+tags:
+    - Image Viewer
+links:
+    home: https://kde.org/applications/graphics/gwenview/
+    repository: https://cgit.kde.org/gwenview.git/

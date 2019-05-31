@@ -1,0 +1,8 @@
+name: Yakuake
+organization: KDE
+source: open
+tags:
+    - Terminal Emulator
+links:
+    home: https://kde.org/applications/system/yakuake/
+    repository: https://cgit.kde.org/yakuake.git/

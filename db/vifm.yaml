@@ -1,0 +1,7 @@
+name: Vifm
+source: open
+tags:
+    - File Manager
+links:
+    home: https://vifm.info/
+    repository: https://github.com/vifm/vifm

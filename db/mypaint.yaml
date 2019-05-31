@@ -1,0 +1,7 @@
+name: MyPaint
+source: open
+tags:
+    - Image Editor
+links:
+    home: http://mypaint.org/
+    repository: https://github.com/mypaint/mypaint

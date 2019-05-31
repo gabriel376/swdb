@@ -1,0 +1,8 @@
+name: Kopete
+organization: KDE
+source: open
+tags:
+    - Instant Messaging Client
+links:
+    home: https://kde.org/applications/internet/kopete/
+    repository: https://cgit.kde.org/kopete.git
