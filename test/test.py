@@ -1,6 +1,6 @@
 from swdb import swdb
 
-path = 'test/db'
+PATH = 'test/db'
 
 def test_tags():
     expected = [
@@ -11,10 +11,10 @@ def test_tags():
         {'tag': 'Project Management', 'count': 1},
         {'tag': 'Text Editor', 'count': 4},
     ]
-    actual = swdb(path).tags()
+    actual = swdb(PATH).tags()
     assert actual == expected
 
-def test_info():
+def test_list():
     expected = [
         'Emacs',
         'Go',
@@ -31,10 +31,10 @@ def test_info():
         'Vim',
         'Visual Studio Code',
     ]
-    actual = swdb(path).info()
+    actual = swdb(PATH).list()
     assert [item['name'] for item in actual] == expected
 
-def test_info_empty_name_returns_all():
+def test_list_empty_name():
     expected = [
         'Emacs',
         'Go',
@@ -51,24 +51,24 @@ def test_info_empty_name_returns_all():
         'Vim',
         'Visual Studio Code',
     ]
-    actual = swdb(path).info(['--name', ''])
+    actual = swdb(PATH).list(['--name', ''])
     assert [item['name'] for item in actual] == expected
 
-def test_info_valid_name_returns_filtered():
+def test_list_valid_name():
     expected = [
         'Microsoft SQL Server',
         'MySQL',
         'PostgreSQL',
     ]
-    actual = swdb(path).info(['--name', 'sql'])
+    actual = swdb(PATH).list(['--name', 'sql'])
     assert [item['name'] for item in actual] == expected
 
-def test_info_invalid_name_returns_empty():
+def test_list_invalid_name():
     expected = []
-    actual = swdb(path).info(['--name', 'xxx'])
+    actual = swdb(PATH).list(['--name', 'xxx'])
     assert actual == expected
 
-def test_info_empty_tag_returns_all():
+def test_list_empty_tag():
     expected = [
         'Emacs',
         'Go',
@@ -85,39 +85,39 @@ def test_info_empty_tag_returns_all():
         'Vim',
         'Visual Studio Code',
     ]
-    actual = swdb(path).info(['--tag', ''])
+    actual = swdb(PATH).list(['--tag', ''])
     assert [item['name'] for item in actual] == expected
 
-def test_info_valid_tag_returns_filtered():
+def test_list_valid_tag():
     expected = [
         'Emacs',
         'Sublime Text',
         'Vim',
         'Visual Studio Code',
     ]
-    actual = swdb(path).info(['--tag', 'text'])
+    actual = swdb(PATH).list(['--tag', 'text'])
     assert [item['name'] for item in actual] == expected
 
-def test_info_invalid_tag_returns_empty():
+def test_list_invalid_tag():
     expected = []
-    actual = swdb(path).info(['--tag', 'xxx'])
+    actual = swdb(PATH).list(['--tag', 'xxx'])
     assert actual == expected
 
-def test_info_valid_name_and_tag_returns_filtered():
+def test_list_valid_name_and_tag():
     expected = [
         'Microsoft SQL Server',
         'MongoDB',
         'PostgreSQL',
     ]
-    actual = swdb(path).info(['--name', 'o', '--tag', 'data'])
+    actual = swdb(PATH).list(['--name', 'o', '--tag', 'data'])
     assert [item['name'] for item in actual] == expected
 
-def test_info_invalid_name_and_tag_returns_empty():
+def test_list_invalid_name_and_tag():
     expected = []
-    actual = swdb(path).info(['--name', 'xxx', '--tag', 'data'])
+    actual = swdb(PATH).list(['--name', 'xxx', '--tag', 'data'])
     assert actual == expected
 
-def test_info_source_open_returns_filtered():
+def test_list_source_open():
     expected = [
         'Emacs',
         'MongoDB',
@@ -127,26 +127,26 @@ def test_info_source_open_returns_filtered():
         'Vim',
         'Visual Studio Code',
     ]
-    actual = swdb(path).info(['--source', 'open'])
+    actual = swdb(PATH).list(['--source', 'open'])
     assert [item['name'] for item in actual] == expected
 
-def test_info_source_open_and_tag_returns_filtered():
+def test_list_source_open_and_tag():
     expected = [
         'Emacs',
         'Vim',
         'Visual Studio Code',
     ]
-    actual = swdb(path).info(['--source', 'open', '--tag', 'editor'])
+    actual = swdb(PATH).list(['--source', 'open', '--tag', 'editor'])
     assert [item['name'] for item in actual] == expected
 
-def test_info_source_closed_and_tag_returns_filtered():
+def test_list_source_closed_and_tag():
     expected = [
         'Sublime Text',
     ]
-    actual = swdb(path).info(['--source', 'closed', '--tag', 'editor'])
+    actual = swdb(PATH).list(['--source', 'closed', '--tag', 'editor'])
     assert actual[0]['name'] == expected[0]
 
-def test_info_empty_organization_returns_all():
+def test_list_empty_organization():
     expected = [
         'Emacs',
         'Go',
@@ -163,37 +163,66 @@ def test_info_empty_organization_returns_all():
         'Vim',
         'Visual Studio Code',
     ]
-    actual = swdb(path).info(['--organization', ''])
+    actual = swdb(PATH).list(['--organization', ''])
     assert [item['name'] for item in actual] == expected
 
-def test_info_valid_organization_returns_filtered():
+def test_list_valid_organization():
     expected = [
         'Emacs',
     ]
-    actual = swdb(path).info(['--organization', 'gnu'])
+    actual = swdb(PATH).list(['--organization', 'gnu'])
     assert actual[0]['name'] == expected[0]
 
-def test_info_invalid_organization_returns_empty():
+def test_list_invalid_organization():
     expected = []
-    actual = swdb(path).info(['--organization', 'xxx'])
+    actual = swdb(PATH).list(['--organization', 'xxx'])
     assert actual == expected
 
-def test_info_valid_complex_filter_returns_filtered():
+def test_list_valid_complex_filter():
     expected = [
         'Microsoft Project',
     ]
-    actual = swdb(path).info(['--name', 'project',
+    actual = swdb(PATH).list(['--name', 'project',
                               '--tag', 'management',
                               '--source', 'closed',
                               '--organization', 'micro'])
     assert actual[0]['name'] == expected[0]
 
-def test_info_invalid_complex_filter_returns_empty():
+def test_list_invalid_complex_filter():
     expected = []
-    actual = swdb(path).info(['--name', 'xxx',
+    actual = swdb(PATH).list(['--name', 'xxx',
                               '--tag', 'data',
                               '--source', 'open',
                               '--organization', 'xxx'])
+    assert actual == expected
+
+def test_info_empty_name():
+    expected = None
+    actual = swdb(PATH).info([''])
+    assert actual == expected
+
+def test_info_invalid_name():
+    expected = None
+    actual = swdb(PATH).info(['xxx'])
+    assert actual == expected
+
+def test_info_partial_name():
+    expected = None
+    actual = swdb(PATH).info(['emac'])
+    assert actual == expected
+
+def test_info_valid_name():
+    expected = {
+        'name': 'Emacs',
+        'organization': 'GNU',
+        'source': 'open',
+    }
+    actual = swdb(PATH).info(['emacs'])
+    assert all(actual[key] == expected[key] for key in expected)
+
+def test_cross_empty_name():
+    expected = []
+    actual = swdb(PATH).cross([])
     assert actual == expected
 
 def test_cross_single_name():
@@ -201,15 +230,15 @@ def test_cross_single_name():
         {'key': 'organization', 'Vim': ''},
         {'key': 'source', 'Vim': 'open'},
     ]
-    actual = swdb(path).cross(['vim'])
+    actual = swdb(PATH).cross(['--name', 'vim'])
     assert actual == expected
 
 def test_cross_valid_names():
     expected = [
-        {'key': 'organization', 'Vim': '', 'Sublime Text': '', 'Emacs': 'GNU'},
-        {'key': 'source', 'Vim': 'open', 'Sublime Text': 'closed', 'Emacs': 'open'},
+        {'key': 'organization', 'Emacs': 'GNU', 'Sublime Text': '', 'Vim': ''},
+        {'key': 'source', 'Emacs': 'open', 'Sublime Text': 'closed', 'Vim': 'open'},
     ]
-    actual = swdb(path).cross(['vim', 'sublime text', 'emacs'])
+    actual = swdb(PATH).cross(['--name', 'vim', 'sublime text', 'emacs'])
     assert actual == expected
 
 def test_cross_invalid_names():
@@ -217,5 +246,5 @@ def test_cross_invalid_names():
         {'key': 'organization', 'Vim': '', 'Emacs': 'GNU'},
         {'key': 'source', 'Vim': 'open', 'Emacs': 'open'},
     ]
-    actual = swdb(path).cross(['vim', 'xxx', 'emacs'])
+    actual = swdb(PATH).cross(['--name', 'vim', 'xxx', 'emacs'])
     assert actual == expected

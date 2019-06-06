@@ -21,11 +21,13 @@ swdb -v                   # print version
 
 swdb tags                 # get tags
 
-swdb info            \    # get sw info
+swdb list            \    # list sw
     [--tag]          \    # filter by tag
     [--name]         \    # filter by name
     [--source]       \    # filter by source
     [--organization]      # filter by organization
+
+swdb info [name]          # show sw info
 
 swdb cross [name...]      # compare sw
 ```

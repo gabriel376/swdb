@@ -1,5 +1,7 @@
 name: MariaDB
 source: open
+based on:
+    - MySQL
 tags:
     - Database
 links:

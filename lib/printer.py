@@ -1,6 +1,17 @@
 import yaml
 
 class printer:
+    def print(self, data):
+        if not data:
+            return
+
+        if type(data) == type([]):
+            self.print_table(data)
+        elif type(data) == type({}):
+            self.print_yaml(data)
+        else:
+            print(data)
+
     def print_table(self, data):
         if not data:
             return
