@@ -1,0 +1,7 @@
+name: Vi
+source: open
+tags:
+    - Text Editor
+links:
+    home: http://ex-vi.sourceforge.net/
+    repository: http://ex-vi.cvs.sourceforge.net/ex-vi/ex-vi/

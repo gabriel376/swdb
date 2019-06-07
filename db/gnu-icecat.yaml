@@ -1,6 +1,8 @@
 name: IceCat
 organization: GNU
 source: open
+based on:
+    - Firefox
 tags:
     - Browser
 links:

@@ -1,6 +1,8 @@
 name: Google Chrome
 organization: Google
 source: closed
+based on:
+    - Chromium
 tags:
     - Browser
 links:

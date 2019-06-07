@@ -1,5 +1,7 @@
 name: Vifm
 source: open
+based on:
+    - Vi
 tags:
     - File Manager
 links:

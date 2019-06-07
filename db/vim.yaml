@@ -1,5 +1,7 @@
 name: Vim
 source: open
+based on:
+    - Vi
 tags:
     - Diff Viewer
     - Text Editor

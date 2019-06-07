@@ -1,5 +1,7 @@
 name: Jenkins
 source: open
+based on:
+    - Hudson
 tags:
     - Continuous Integration
 links:

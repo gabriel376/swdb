@@ -1,4 +1,6 @@
 name: TypeScript
+based on:
+    - Javascript
 tags:
     - Programming Language
 links:

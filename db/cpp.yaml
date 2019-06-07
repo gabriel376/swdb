@@ -1,4 +1,6 @@
 name: C++
+based on:
+    - C
 tags:
     - Programming Language
 links:
