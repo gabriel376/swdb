@@ -19,7 +19,7 @@ python3 -m pytest test/test.py -vv
 swdb -h                   # print help
 swdb -v                   # print version
 
-swdb tags                 # get tags
+swdb tags                 # show tags
 
 swdb list            \    # list sw
     [--tag]          \    # filter by tag
@@ -29,7 +29,9 @@ swdb list            \    # list sw
 
 swdb info [name]          # show sw info
 
-swdb cross [name...]      # compare sw
+swdb cross       \        # compare sw
+     [--tag]     \        # by tag
+     [--name...]          # by names
 ```
 
 ## License
