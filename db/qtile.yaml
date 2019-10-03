@@ -1,0 +1,7 @@
+name: Qtile
+source: open
+tags:
+    - Window Manager
+links:
+    home: http://www.qtile.org/
+    repository: https://github.com/qtile/qtile

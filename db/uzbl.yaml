@@ -1,0 +1,7 @@
+name: uzbl
+source: open
+tags:
+    - Browser
+links:
+    home: https://www.uzbl.org/
+    repository: https://github.com/uzbl/uzbl/

@@ -1,0 +1,7 @@
+name: qutebrowser
+source: open
+tags:
+    - Browser
+links:
+    home: https://www.qutebrowser.org
+    repository: https://github.com/qutebrowser/qutebrowser

@@ -1,0 +1,7 @@
+name: bspwm
+source: open
+tags:
+    - Window Manager
+links:
+    home: https://github.com/baskerville/bspwm/wiki
+    repository: https://github.com/baskerville/bspwm
