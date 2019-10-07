@@ -1,0 +1,7 @@
+name: Brave
+source: open
+tags:
+    - Browser
+links:
+    home: https://www.brave.com
+    repository: https://github.com/brave/brave-browser
