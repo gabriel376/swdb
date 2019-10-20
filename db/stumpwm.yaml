@@ -1,0 +1,7 @@
+name: StumpWM
+source: open
+tags:
+    - Window Manager
+links:
+    home: http://stumpwm.github.io/
+    repository: https://github.com/stumpwm/stumpwm

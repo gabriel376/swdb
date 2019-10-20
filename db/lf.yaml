@@ -1,0 +1,7 @@
+name: lf
+source: open
+tags:
+    - File Manager
+links:
+    home: https://godoc.org/github.com/gokcehan/lf
+    repository: https://github.com/gokcehan/lf
