@@ -1,20 +1,7 @@
-import sys
 import argparse
 import collections
 
 from db import db
-from printer import printer
-
-PATH = 'db/'
-VERSION = 'swdb 0.1.0'
-USAGE = '''swdb [command] [options]
-
-commands:
-    tags        get tags
-    list        list sw
-    info        show sw info
-    cross       compare sw
-'''
 
 class swdb:
     def __init__(self, path):
@@ -83,24 +70,3 @@ class swdb:
         keys = ['organization', 'source']
         cross = [{'key': key, **{item['name']: item[key] if key in item else '' for item in filtered}} for key in keys]
         return cross
-
-if __name__ == '__main__':
-    parser = argparse.ArgumentParser(usage=USAGE)
-    parser.add_argument('command')
-    parser.add_argument('-v', '--version', action='version', version=VERSION)
-    args = parser.parse_args(sys.argv[1:2])
-
-    commands = {
-        'tags': swdb(PATH).tags,
-        'list': swdb(PATH).list,
-        'info': swdb(PATH).info,
-        'cross': swdb(PATH).cross,
-    }
-
-    if args.command not in commands:
-        print('invalid command: ' + args.command)
-        parser.print_help()
-        exit(1)
-
-    data = commands[args.command](sys.argv[2:])
-    printer().print(data)
