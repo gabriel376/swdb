@@ -4,7 +4,7 @@ import argparse
 from swdb import swdb
 from printer import printer
 
-PATH = 'db/'
+PATH = 'db/main.yaml'
 VERSION = 'swdb 0.1.0'
 USAGE = '''swdb [command] [options]
 

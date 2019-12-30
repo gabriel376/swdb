@@ -6,6 +6,7 @@
 git clone https://github.com/gabriel376/swdb
 cd swdb
 sudo pip3 install -r requirements.txt
+python3 scripts/build.py
 python3 lib/main.py -h
 ```
 

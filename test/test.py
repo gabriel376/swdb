@@ -1,6 +1,6 @@
 from swdb import swdb
 
-PATH = 'test/db'
+PATH = 'db/test.yaml'
 
 def test_tags():
     expected = [
