@@ -1,0 +1,6 @@
+name: FreeBSD
+tags:
+    - Operating System
+links:
+    home: http://www.freebsd.org/
+    distrowatch: https://distrowatch.com/table.php?distribution=freebsd

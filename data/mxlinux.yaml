@@ -1,0 +1,9 @@
+name: MX Linux
+based on:
+    - Debian
+    - antiX
+tags:
+    - Operating System
+links:
+    home: https://mxlinux.org/
+    distrowatch: https://distrowatch.com/table.php?distribution=mx

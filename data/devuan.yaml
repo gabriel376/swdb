@@ -1,0 +1,8 @@
+name: Devuan
+based on:
+    - Debian
+tags:
+    - Operating System
+links:
+    home: https://devuan.org/
+    distrowatch: https://distrowatch.com/table.php?distribution=devuan

@@ -1,0 +1,8 @@
+name: Ubuntu
+based on:
+    - Debian
+tags:
+    - Operating System
+links:
+    home: https://www.ubuntu.com/
+    distrowatch: https://distrowatch.com/table.php?distribution=ubuntu

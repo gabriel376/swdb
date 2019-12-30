@@ -1,0 +1,9 @@
+name: Linux Mint
+based on:
+    - Debian
+    - Ubuntu
+tags:
+    - Operating System
+links:
+    home: http://linuxmint.com/
+    distrowatch: https://distrowatch.com/table.php?distribution=mint

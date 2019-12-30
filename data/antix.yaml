@@ -1,0 +1,8 @@
+name: antiX
+based on:
+    - Debian
+tags:
+    - Operating System
+links:
+    home: https://antixlinux.com/
+    distrowatch: https://distrowatch.com/table.php?distribution=antix

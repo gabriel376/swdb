@@ -1,0 +1,8 @@
+name: Red Hat Enterprise Linux
+based on:
+    - Fedora
+tags:
+    - Operating System
+links:
+    home: http://www.redhat.com/
+    distrowatch: https://distrowatch.com/table.php?distribution=redhat

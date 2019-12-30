@@ -1,0 +1,6 @@
+name: OpenBSD
+tags:
+    - Operating System
+links:
+    home: http://www.openbsd.org/
+    distrowatch: https://distrowatch.com/table.php?distribution=openbsd

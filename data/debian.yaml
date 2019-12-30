@@ -1,0 +1,6 @@
+name: Debian
+tags:
+    - Operating System
+links:
+    home: https://www.debian.org/
+    distrowatch: https://distrowatch.com/table.php?distribution=debian

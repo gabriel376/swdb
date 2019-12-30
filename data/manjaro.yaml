@@ -1,0 +1,8 @@
+name: Manjaro
+based on:
+    - Arch
+tags:
+    - Operating System
+links:
+    home: https://manjaro.org/
+    distrowatch: https://distrowatch.com/table.php?distribution=manjaro

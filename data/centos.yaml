@@ -1,0 +1,9 @@
+name: CentOS
+based on:
+    - Fedora
+    - Red Hat Enterprise Linux
+tags:
+    - Operating System
+links:
+    home: http://www.centos.org/
+    distrowatch: https://distrowatch.com/table.php?distribution=centos
